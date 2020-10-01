@@ -19,7 +19,7 @@ class GiphySearchPage extends StatelessWidget {
             color: Colors.white,
             child: AppBar(
               backgroundColor: new Color(0xFF4361EE),
-              title: Text('Settings'),
+              title: Text('Search GIF'),
               flexibleSpace: Image(
                 image: AssetImage('assets/topnav_cropped.png'),
                 fit: BoxFit.fill,

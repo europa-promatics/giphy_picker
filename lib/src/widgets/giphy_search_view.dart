@@ -41,6 +41,8 @@ class _GiphySearchViewState extends State<GiphySearchView> {
         padding: EdgeInsets.symmetric(horizontal: 10),
         child: TextField(
           controller: _textController,
+          textInputAction: TextInputAction.search,
+          style: TextStyle(fontSize: 18),
           decoration: InputDecoration(hintText: giphy.searchText),
           onChanged: (value) => _delayedSearch(giphy, value),
         ),
